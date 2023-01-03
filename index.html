@@ -7,14 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <!-- Animate.css -->
     <link rel="stylesheet" href="css/animate.min.css">
+    <!-- Bootstrap  -->
     <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Theme style  -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Modernizr JS -->
     <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/082a753999.js" crossorigin="anonymous"></script>
 </head>
 <body>
+	
 	<div class="fh5co-loader" style="display: none;"></div>
+	
 	<div id="page">	
 	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
@@ -40,6 +47,7 @@
 			</div>
 		</div>
 	</header>
+
 	<div id="fh5co-about" class="animate__animated animate__fadeInUp wow animate__fast" data-wow-offset="200">
 		<div class="container">
 			<div class="row">
@@ -65,6 +73,7 @@
 			</div>
 		</div>
 	</div>
+
 	<div id="fh5co-resume" class="fh5co-bg-color">
 		<div class="container">
 			<div class="row animate__animated animate__fadeInUp wow" data-wow-offset="150">
@@ -165,10 +174,13 @@
 								</div>
 							</div>
 						</li>
+
 						<br>
+
 						<li class="timeline-heading text-center animate__animated animate__fadeIn wow" data-wow-offset="100">
 							<div><h3>Education</h3></div>
 						</li>
+
 						<li class="timeline-inverted animate__animated animate__fadeInUp wow" data-wow-offset="100">
 							<div class="timeline-badge"><i class="fa-solid fa-graduation-cap"></i></div>
 							<div class="timeline-panel">
@@ -190,6 +202,8 @@
 			</div>
 		</div>
 	</div>
+	
+
 	<div id="fh5co-features" class="animate__animated animate__fadeIn wow" data-wow-offset="200">
 		<div class="container">
 			<div class="services-padding">
@@ -258,6 +272,11 @@
 			</div>
 		</div>
 	</div>
+
+
+    <!------------------------------------
+        Skills
+    ------------------------------------->
 	<div id="fh5co-skills" >
 		<div class="container">
             <div class="row animate__animated animate__fadeIn wow" data-wow-offset="100">
@@ -265,105 +284,118 @@
 					<h2>Skills</h2>
 				</div>
 			</div>
-            <ul class="row filter-controller animate__animated animate__fadeIn wow" data-wow-offset="100">
-                <div class="col-xs-6 col-lg-2">
-					<li class="all" data-filter="all">All</li>
-				</div>
-				<div class="col-xs-6 col-lg-2">
-					<li class="hov-front-end" data-filter="front-end">FrontEnd</li>
-				</div>
-				<div class="col-xs-6 col-lg-2">
-					<li class="hov-back-end" data-filter="back-end">BackEnd</li>	
-				</div>
-                <div class="col-xs-6 col-lg-2">
-					<li class="hov-web-application" data-filter="web-application">WebApp</li>
-				</div>
-				<div class="col-xs-6 col-lg-2">
-					<li class="hov-mobile-application" data-filter="mobile-application">MobileApp</li>
-				</div>
-				<div class="col-xs-6 col-lg-2">
-					<li class="hov-language" data-filter="language">Language</li>
-				</div>
-				<div class="col-xs-6 col-lg-2">
-					<li class="hov-other" data-filter="other">Other</li>
-				</div>
+
+            <ul class="filter-controller animate__animated animate__fadeIn wow" data-wow-offset="100">
+				<li class="all" data-filter="all">All</li>
+				<span>|</span>
+				<li class="hov-front-end" data-filter="front-end">FrontEnd</li>
+				<span>|</span>
+				<li class="hov-back-end" data-filter="back-end">BackEnd</li>
+				<span>|</span>
+				<li class="hov-web-application" data-filter="web-application">WebApp</li>
+				<span>|</span>
+				<li class="hov-mobile-application" data-filter="mobile-application">MobileApp</li>
+				<span>|</span>
+				<li class="hov-language" data-filter="language">Language</li>
+				<span>|</span>
+				<li class="hov-other" data-filter="other">Other</li>
             </ul>
+
+            
             <div class="filter-container animate__animated animate__fadeIn wow" data-wow-offset="100">
-                <div class="filtr-item" data-category="front-end">
+                <div class="filtr-item front-end" data-category="front-end">
                     HTML
                 </div>
-                <div class="filtr-item" data-category="front-end">
-                    CSS
+                <div class="filtr-item web-application" data-category="web-application">
+                    <span class="long-text">Ruby On Rails</span>
                 </div>
-                <div class="filtr-item" data-category="front-end">
-                    Javascript
-                </div>
-                <div class="filtr-item" data-category="front-end">
-                    Bootstrap
-                </div>
-                <div class="filtr-item" data-category="front-end">
-                    <span>jQuery</span>
-                </div>
-                <div class="filtr-item" data-category="web-application">
-                    <span>RubyOnRails</span>
-                </div>
-                <div class="filtr-item" data-category="web-application">
-                    <span>Express</span>
-                </div>
-                <div class="filtr-item" data-category="web-application">
+                <div class="filtr-item web-application" data-category="web-application">
                     <span>Node.js</span>
                 </div>
-                <div class="filtr-item" data-category="mobile-application">
+				<div class="filtr-item back-end" data-category="back-end">
+                    <span>GCP</span>
+                </div>
+                <div class="filtr-item mobile-application" data-category="mobile-application">
                     <span>Flutter</span>
                 </div>
-                <div class="filtr-item" data-category="back-end">
-                    <span>SQL</span>
-                </div>
-                <div class="filtr-item" data-category="back-end">
-                    <span>Dart</span>
-                </div>
-                <div class="filtr-item" data-category="back-end">
-                    <span>GAS</span>
-                </div>
-                <div class="filtr-item" data-category="back-end">
-                    <span>Windows Server</span>
-                </div>
-                <div class="filtr-item" data-category="back-end">
-                    <span>AWS</span>
-                </div>
-                <div class="filtr-item" data-category="back-end">
-                    <span>Docker</span>
-                </div>
-                <div class="filtr-item" data-category="back-end">
-                    <span>Firebase</span>
-                </div>
-                <div class="filtr-item" data-category="back-end">
-                    <span>Python</span>
-                </div>
-                <div class="filtr-item" data-category="language">
+				<div class="filtr-item language" data-category="language">
                     <span>Japanese</span>
                 </div>
-                <div class="filtr-item" data-category="language">
-                    <span>English</span>
+				<div class="filtr-item front-end" data-category="front-end">
+                    <span>Bootstrap</span>
                 </div>
-                <div class="filtr-item" data-category="language">
-                    <span>French</span>
+				<div class="filtr-item other" data-category="other">
+                    <span>Empathy</span>
                 </div>
-                <div class="filtr-item" data-category="other">
+                <div class="filtr-item back-end" data-category="back-end">
+                    <span>SQL</span>
+                </div>
+				<div class="filtr-item web-application" data-category="web-application">
+                    <span>Express</span>
+                </div>
+                <div class="filtr-item back-end" data-category="back-end">
+                    <span>AWS</span>
+                </div>
+				<div class="filtr-item front-end" data-category="front-end">
+                    <span>jQuery</span>
+                </div>
+                <div class="filtr-item back-end" data-category="back-end">
+                    <span>Docker</span>
+                </div>
+				<div class="filtr-item other" data-category="other">
                     <span>Coaching</span>
                 </div>
-                <div class="filtr-item" data-category="other">
-                    <span>ProblemSolving</span>
+                <div class="filtr-item back-end" data-category="back-end">
+                    <span>Python</span>
                 </div>
-                <div class="filtr-item" data-category="other">
-                    <span>TimeManagement</span>
+				<div class="filtr-item front-end" data-category="front-end">
+                    <span>CSS</span>
                 </div>
-                <div class="filtr-item" data-category="other">
-                    <span>Teamwork</span>
+                <div class="filtr-item language" data-category="language">
+                    <span>English</span>
+                </div>
+				<div class="filtr-item mobile-application" data-category="mobile-application">
+                    <span>Admob</span>
+                </div>
+				<div class="filtr-item back-end" data-category="back-end">
+                    <span>Dart</span>
+                </div>
+				<div class="filtr-item front-end" data-category="front-end">
+                    <span>Javascript</span>
+                </div>
+                <div class="filtr-item language" data-category="language">
+                    <span>French</span>
+                </div>
+				<div class="filtr-item back-end" data-category="back-end">
+                    <span class="long-text">Windows Server</span>
+                </div>
+				<div class="filtr-item web-application" data-category="web-application">
+                    <span class="long-text">GoogleAnalytics</span>
+                </div>
+				<div class="filtr-item back-end" data-category="back-end">
+                    <span>Firebase</span>
+                </div>
+                <div class="filtr-item other" data-category="other">
+                    <span class="long-text">ProblemSolving</span>
+                </div>
+				<div class="filtr-item back-end" data-category="back-end">
+                    <span>GAS</span>
+                </div>
+				<div class="filtr-item other" data-category="other">
+                    <span class="">PenTest</span>
                 </div>
             </div>
 		</div>
 	</div>
+
+
+
+        
+
+
+    <!-------------------------------------------- 
+        Work (Portfolio)
+    --------------------------------------------->
 	<div id="fh5co-work" class="fh5co-bg-dark">
 		<div class="container">
 			<div class="row animate-box animate__animated animate__fadeInUp wow" data-wow-offset="100">
@@ -371,6 +403,7 @@
 					<h2>Works</h2>
 				</div>
 			</div>
+
 			<div class="row">
 				<div class="col-md-3 text-center col-padding animate-box animate__animated animate__fadeInUp wow" data-wow-offset="100">
 					<a href="https://coding-chance.github.io/Corporate-Site" target="_blank" rel="noopener noreferrer" class="work" style="background-image: url(images/corporate-site-image.jpg);">
@@ -399,6 +432,7 @@
 			</div>
 		</div>
 	</div>
+
 	<div id="fh5co-blog">
 		<div class="container">
 			<div class="row animate-box animate__animated animate__fadeInUp wow" data-wow-offset="100">
@@ -407,6 +441,7 @@
 					<p>Multiple Activity is taken place every day!</p>
 				</div>
 			</div>
+
 			<div class="row">
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box animate__animated animate__fadeInUp wow" data-wow-offset="100">
@@ -434,6 +469,7 @@
 						</div> 
 					</div>
 				</div>
+
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box  animate__animated animate__fadeInUp wow" data-wow-offset="100" data-wow-delay=".2s">
 						<a href="#" target="_blank" rel="noopener noreferrer" class="blog-bg" style="background-image: url(images/dch-logo.png);"></a>
@@ -471,6 +507,7 @@
 						</div> 
 					</div>
 				</div>
+
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box  animate__animated animate__fadeInUp wow" data-wow-offset="100" data-wow-delay=".4s">
 						<a href="https://www.youtube.com/channel/UCBFE2GJJXwLjBfGjPlfPzcg" class="blog-bg" style="background-image: url(images/lets-gengo-show-logo.png);"></a>
@@ -499,6 +536,7 @@
 			</div>
 		</div>
 	</div>
+	
 	<div id="fh5co-started" class="fh5co-bg-dark">
 		<div class="overlay"></div>
 		<div class="container">
@@ -514,6 +552,8 @@
 			</div>
 		</div>
 	</div>
+	
+	
 	<div id="fh5co-footer">
 		<div class="container">
 			<div class="row">
@@ -523,15 +563,23 @@
 			</div>
 		</div>
 	</div>
+    <!-- Floating Button -->
 	<div class="gototop js-top">
 		<a href="#" target="_blank" rel="noopener noreferrer" class="js-gotop"><i class="icon-arrow-up22"></i></a>
 	</div>
+	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
+    <!-- Bootstrap -->
 	<script src="js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
 	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Easy PieChart -->
 	<script src="js/jquery.easypiechart.min.js"></script>
+    <!-- Wow.js -->
     <script src="js/wow.min.js"></script>
+    <!-- filterizr.js -->
     <script src="js/jquery.filterizr.min.js"></script>
+	<!-- Main -->
 	<script src="js/main.js"></script>
 </body>
 </html>
